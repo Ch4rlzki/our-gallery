@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Our Gallery</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='./assets/css/main.min.css'>
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-md">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">
+                    <img src="./assets/img/pinterest-logo.png" alt="pinterest-logo.png" style="height: 26px; width: 26px;">
+                </a>
+                <button type="button" class="navbar-toggler" data-bs-toggle="offcanvas" data-bs-target="#navbarOffcanvas">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="offcanvas offcanvas-end" id="navbarOffcanvas">
+                    <div class="offcanvas-header">
+                        <h5 class="offcanvas-title">Our Gallery</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="offcanvas"></button>
+                    </div>
+                    <div class="offcanvas-body">
+                        <div class="form-floating ms-1 w-100 d-block d-md-none mb-2">
+                            <input type="text" class="form-control rounded-pill ps-4" id="search1" placeholder="">
+                            <label for="search1" class="ms-2">Search</label>
+                        </div>
+                        <ul class="navbar-nav gap-1 d-flex align-items-center flex-row mb-2 mb-md-0">
+                            <li class="nav-item w-100">
+                                <button type="button" class="btn btn-secondary fw-semibold w-100">Home</button>
+                            </li>
+                            <li class="nav-item w-100">
+                                <button type="button" class="btn fw-semibold w-100">Create</button>
+                            </li>
+                        </ul>
+                        <div class="form-floating ms-1 w-100 d-none d-md-block">
+                            <input type="text" class="form-control rounded-pill ps-4" id="search1" placeholder="">
+                            <label for="search1" class="ms-2">Search</label>
+                        </div>
+                        <ul class="navbar-nav gap-1 ms-1 d-flex align-items-center flex-row gap-2">
+                            <li class="nav-item w-100">
+                                <button type="button" class="btn fw-semibold w-100">
+                                    <img src="./assets/img/notification.svg" alt="notification.svg">
+                                </button>
+                            </li>
+                            <li class="nav-item w-100">
+                                <button type="button" class="btn fw-semibold w-100">
+                                    <img src="./assets/img/message.svg" alt="message.svg">
+                                </button>
+                            </li>
+                            <li class="nav-item w-100">
+                                <a href="#" class="btn">
+                                    <img src="./assets/img/pfp.jpg" alt="pfp.jpg" style="height: 26px; width: 26px;" class="rounded-circle">
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="gallery">
+            <div class="container">
+                <div class="gallerycontainer d-flex justify-content-center justify-content-sm-between align-items-center flex-wrap gap-2">
+                    <!-- <div><div class="inner"><img src="https://source.unsplash.com/t3DHojIo-08" alt=""></div></div>
+                    <div><div class="inner"><img src="https://source.unsplash.com/Imc-IoZDMXc" alt=""></div></div>
+                    <div><div class="inner"><img src="https://source.unsplash.com/SOZWHqeXcPQ" alt=""></div></div>
+                    <div><div class="inner"><img src="https://source.unsplash.com/bkdzvgBB7rQ" alt=""></div></div>
+                    <div><div class="inner"><img src="https://source.unsplash.com/Aruugw_rJCM" alt=""></div></div>
+                    <div><div class="inner"><img src="https://source.unsplash.com/E2ZuBbBtrVk" alt=""></div></div>
+                    <div><div class="inner"><img src="https://source.unsplash.com/IMApG5GuhKw" alt=""></div></div>
+                    <div><div class="inner"><img src="https://source.unsplash.com/xvwZJNaiRNo" alt=""></div></div>
+                    <div><div class="inner"><img src="https://source.unsplash.com/Wkf2R-GK-pc" alt=""></div></div>
+                    <div><div class="inner"><img src="https://source.unsplash.com/NbGiwlx8pgE" alt=""></div></div>
+                    <div><div class="inner"><img src="https://source.unsplash.com/t3DHojIo-08" alt=""></div></div>
+                    <div><div class="inner"><img src="https://source.unsplash.com/Imc-IoZDMXc" alt=""></div></div>
+                    <div><div class="inner"><img src="https://source.unsplash.com/SOZWHqeXcPQ" alt=""></div></div>
+                    <div><div class="inner"><img src="https://source.unsplash.com/bkdzvgBB7rQ" alt=""></div></div>
+                    <div><div class="inner"><img src="https://source.unsplash.com/Aruugw_rJCM" alt=""></div></div>
+                    <div><div class="inner"><img src="https://source.unsplash.com/E2ZuBbBtrVk" alt=""></div></div>
+                    <div><div class="inner"><img src="https://source.unsplash.com/IMApG5GuhKw" alt=""></div></div>
+                    <div><div class="inner"><img src="https://source.unsplash.com/xvwZJNaiRNo" alt=""></div></div>
+                    <div><div class="inner"><img src="https://source.unsplash.com/Wkf2R-GK-pc" alt=""></div></div>
+                    <div><div class="inner"><img src="https://source.unsplash.com/NbGiwlx8pgE" alt=""></div></div>
+                    <div><div class="inner"><img src="https://source.unsplash.com/t3DHojIo-08" alt=""></div></div>
+                    <div><div class="inner"><img src="https://source.unsplash.com/Imc-IoZDMXc" alt=""></div></div>
+                    <div><div class="inner"><img src="https://source.unsplash.com/SOZWHqeXcPQ" alt=""></div></div>
+                    <div><div class="inner"><img src="https://source.unsplash.com/bkdzvgBB7rQ" alt=""></div></div>
+                    <div><div class="inner"><img src="https://source.unsplash.com/Aruugw_rJCM" alt=""></div></div>
+                    <div><div class="inner"><img src="https://source.unsplash.com/E2ZuBbBtrVk" alt=""></div></div>
+                    <div><div class="inner"><img src="https://source.unsplash.com/IMApG5GuhKw" alt=""></div></div>
+                    <div><div class="inner"><img src="https://source.unsplash.com/xvwZJNaiRNo" alt=""></div></div>
+                    <div><div class="inner"><img src="https://source.unsplash.com/Wkf2R-GK-pc" alt=""></div></div>
+                    <div><div class="inner"><img src="https://source.unsplash.com/NbGiwlx8pgE" alt=""></div></div> -->
+                </div>
+            </div>
+        </section>
+    </main>
+    
+    <script src='./node_modules/bootstrap/dist/js/bootstrap.bundle.min.js'></script>
+    <script src="./assets/js/main.js"></script>
+</body>
+</html>
